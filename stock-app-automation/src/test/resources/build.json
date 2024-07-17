@@ -1,0 +1,13 @@
+{
+  "getBuildFrom": "local",
+  "deleteBuild": false,
+  "local":
+  {
+    "appPath": "./src/main/resources/build/android/sal-application-developers-production-debug.apk"
+  },
+  "minio":
+  {
+    "downloadAlways" : false,
+    "version": "4.1.38"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "ANDROID_DEVICE" : {
+    "platform_name": "android",
+    "timeouts": 1000,
+    "automation_name": "UiAutomator2",
+    "appIdentifier": "com.phonepe.stockbroking",
+    "appActivity": "com.phonepe.stockbroking.ui.stockhome.StockDashboardActivity",
+    "appiumUrl": "http://localhost:4723/wd/hub"
+  },
+  "iOS_DEVICE" : {
+    "platform_name": "iOS",
+    "timeouts": 100000,
+    "automation_name": "XCUITest",
+    "appIdentifier": "com.phonepe.stockbrokingenterprise",
+    "appiumUrl": "https://appium.ittproxy.phonepe.mh1/v0/HEADSPIN_API_KEY/wd/hub"
+  }
+}

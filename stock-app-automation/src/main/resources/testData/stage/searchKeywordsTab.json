@@ -1,0 +1,54 @@
+{
+  "it": {
+    "allTab": [
+      "Nifty IT",
+      "Nippon India ETF Nifty IT",
+      "ICICI Prudential Nifty IT ETF",
+      "ITC Ltd.",
+      "ITI Ltd."
+    ],
+    "stocksTab": [
+      "ITC Ltd.",
+      "ITI Ltd.",
+      "ITD Cementation India Ltd."
+    ],
+    "etfTab": [
+      "Nippon India ETF Nifty IT",
+      "ICICI Prudential Nifty IT ETF",
+      "SBI ETF IT",
+      "Kotak Nifty IT ETF",
+      "Axis NIFTY IT ETF"
+    ],
+    "indexTab": [
+      "Nifty IT",
+      "BSE IT Sector"
+    ]
+  },
+  "Nifty 50": {
+    "allTab": [
+      "Nifty 50",
+      "Nifty 500",
+      "Nifty Next 50",
+      "Nifty Midcap 50",
+      "Nifty Smallcap 50"
+    ],
+    "stocksTab": [
+      "No Results found for nifty 50"
+    ],
+    "etfTab": [
+      "Nippon India ETF Nifty Next 50 Junior BeES",
+      "Nippon India ETF Nifty 50 BeES",
+      "ICICI Prudential Nifty 50 ETF",
+      "HDFC Nifty 50 ETF",
+      "HDFC NIFTY50 Value 20 ETF"
+    ],
+    "indexTab": [
+      "Nifty 50",
+      "Nifty 500",
+      "Nifty Midcap 50",
+      "Nifty Smallcap 50",
+      "Nifty Next 50"
+    ]
+  }
+
+}

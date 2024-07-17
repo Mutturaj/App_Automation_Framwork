@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Share.market App Automation Suites" parallel="tests" thread-count="1" verbose="3"
+       configfailurepolicy="continue">
+    <listeners>
+        <listener class-name="listner.CustomReportingListener"/>
+    </listeners>
+    <test preserve-order="true" name="Share.market App">
+        <classes>
+         <!--   <class name="com.stockBroking.qa.appTests.watchlistTest.WatchlistTest">
+                <methods>
+                    <include name="verifyCreateNewWL">
+                    </include>
+                </methods>
+            </class>-->
+              <class name="com.stockBroking.qa.appTests.searchTest.SearchTest"/>
+
+            <!--   <class name="com.stockBroking.qa.appTests.searchTest.SearchTest"/>
+             <class name="com.stockBroking.qa.appTests.orderFlowTest.BuySellTest"/>
+             <class name="com.stockBroking.qa.appTests.homeTest.HomeTest"/>
+             <class name="com.stockBroking.qa.appTests.profileTest.HelpTest"/>
+             -->
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,17 @@
+{
+  "ANDROID_DEVICE" : {
+    "autoGrantPermissions" : true,
+    "autoAcceptAlerts":true,
+    "autoDismissAlerts": true,
+    "noReset": true,
+    "fullReset": false
+  },
+  "iOS_DEVICE" : {
+    "autoAcceptAlerts": true,
+    "noReset": true,
+    "sendKeyStrategy": "oneByOne",
+    "maxTypingFrequency": "10",
+    "xcodeOrgId": "9GW78CXC2W",
+    "xcodeSigningId": "iPhone Developer"
+  }
+}

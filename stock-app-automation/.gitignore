@@ -1,0 +1,8 @@
+.idea/
+allure-results/
+appium.log
+console.log
+target/
+untitled.iml
+reports/
+.DS_Store

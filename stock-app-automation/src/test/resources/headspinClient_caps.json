@@ -1,0 +1,6 @@
+{
+  "headspin:controlLock": true,
+  "headspin:waitForDeviceOnlineTimeout": 180,
+  "headspin:deviceStrategy": "random",
+  "headspin:newSessionRequestProgress": true
+}

@@ -1,0 +1,19 @@
+.default_runner: &default_runner
+  tags:
+    - apps-medium
+
+image:
+  name: docker.phonepe.com/appium-ui-automation:0.1.1
+  entrypoint: [""]
+
+stages:
+  - build
+
+automation-job:
+  stage: build
+  <<: *default_runner
+  script:
+    - env | grep PROXY
+    - curl -v -H "Connection: close" https://33f2eadfde234f769789d201fd29abf1@appium.ittproxy.phonepe.mh1/v0/devices/keys -k
+    - curl -v -H "Connection: close" https://409c0a1ed5874e178214d7e7c3e06a10@appium.ittproxy.phonepe.mh1/v0/devices/keys -k
+    - mvn clean compile test -DsuiteXmlFile=src/main/resources/testSuites/testng.xml -DexecutionType=2 -DheadspinRun=true -DlogLevel=debug -Dheadspin:app.id=dd902bf4-b0f5-4a01-8bee-112fd2d551b5

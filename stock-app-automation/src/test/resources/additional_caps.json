@@ -1,0 +1,11 @@
+{
+  "CUSTOM_ANDROID_CAPS" : {
+    "skipServerInstallation": true,
+    "uiautomator2ServerLaunchTimeout": 50000
+  },
+  "CUSTOM_IOS_CAPS": {
+    "skipServerInstallation": true,
+    "uiautomator2ServerLaunchTimeout": 50000
+  }
+}
+
